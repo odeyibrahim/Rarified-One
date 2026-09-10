@@ -1,0 +1,5 @@
+# robots.txt — Rarified One Solutions
+User-agent: *
+Allow: /
+
+Sitemap: https://rarified-one-solutions.netlify.app/sitemap.xml
