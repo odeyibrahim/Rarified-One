@@ -303,10 +303,10 @@ body.loaded .hero-copy>*:nth-child(5){animation-delay:.5s}
 .prj-inner{overflow:hidden}
 .prj-cols{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,4vw,52px);padding:8px 0 46px 58px}
 .duo{position:relative;overflow:hidden}
-.duo img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05) brightness(.88);transition:filter .7s var(--ease)}
-.duo::after{content:"";position:absolute;inset:0;background:rgba(10,23,48,.24);transition:background .7s}
-.duo:hover img{filter:grayscale(0) contrast(1.02)}
-.duo:hover::after{background:rgba(10,23,48,0)}
+.duo img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
+.duo::after{content:"";position:absolute;inset:0;background:transparent;transition:background .7s;pointer-events:none}
+.duo:hover img{transform:scale(1.03)}
+.duo:hover::after{background:transparent}
 .prj-desc{color:var(--sub);font-size:16.5px;max-width:60ch;line-height:1.7}
 .prj-roles{margin-top:24px;padding-top:22px;border-top:1px solid var(--dk-line-soft)}
 .prj-roles strong{display:block;font:500 10px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;
