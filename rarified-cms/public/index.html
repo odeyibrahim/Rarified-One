@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============ SEO ============ -->
+<title>Rarified One Solutions | Multi-Disciplinary Real Estate Advisory — Victoria Island, Lagos</title>
+<meta name="description" content="Rarified One Solutions is a multi-disciplinary real estate firm in Victoria Island, Lagos — development, agency brokerage, investment advisory, asset &amp; property management and strategic procurement across Ikoyi, Lekki, Victoria Island and Ikeja.">
+<meta name="keywords" content="real estate Lagos, property development Nigeria, real estate agency Ikoyi, luxury apartments Lekki, investment advisory Lagos, property management Victoria Island, joint venture development Nigeria, Rarified One Solutions">
+<meta name="author" content="Rarified One Solutions">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rarified-one-solutions.netlify.app/"> <!-- replace with your final domain -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rarified One Solutions — Discerning counsel for the entire property lifecycle">
+<meta property="og:description" content="Development, agency, investment advisory, asset management and procurement under a single point of accountability. Victoria Island, Lagos.">
+<meta property="og:url" content="https://rarified-one-solutions.netlify.app/">
+<meta property="og:image" content="https://picsum.photos/seed/rarified-one/1200/630.jpg"> <!-- replace with a real brand image before launch -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A1730">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230A1730'/%3E%3Crect x='14' y='14' width='36' height='36' fill='none' stroke='%23C6A55C' stroke-width='1.5' transform='rotate(45 32 32)'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='26' fill='%23E4CF9C' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Rarified One Solutions",
+  "description": "Multi-disciplinary real estate firm offering development, agency brokerage, investment advisory, asset and property management, and strategic procurement in Lagos, Nigeria.",
+  "url": "https://rarified-one-solutions.netlify.app/",
+  "telephone": "+2348143807444",
+  "email": "rarifiedonesolutions@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2nd Floor, Trulease Building, 290A Ajose Adeogun Street",
+    "addressLocality": "Victoria Island, Lagos",
+    "addressCountry": "NG"
+  },
+  "areaServed": ["Ikoyi", "Lekki", "Victoria Island", "Ikeja", "Lagos"],
+  "founder": { "@type": "Person", "name": "Andre B. Audifferen", "jobTitle": "Managing Partner & Chief Executive Officer" },
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Real Estate Development"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Development Advisory & Management"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Real Estate Agency — Sales & Lettings"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Real Estate Investment Advisory"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Asset & Property Management"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Strategic Procurement & Logistics"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Title Registration & Statutory Compliance"}}
+  ]
+}
+</script>
+
+<style>
+/* ================================================================
+   RARIFIED ONE SOLUTIONS — design system
+   Navy · Gold · Ivory — "drafting ledger" language
+================================================================ */
+:root{
+  --navy-950:#060D19; --navy-900:#0A1730; --navy-800:#12233F; --navy-700:#1B3050;
+  --ink:#101F38; --ink-soft:#4B5B70;
+  --gold-500:#C6A55C; --gold-300:#E4CF9C; --gold-700:#9A7B42; --gold-800:#7E6230;
+  --ivory:#F5F2EA; --paper:#FBF9F3; --dash-bg:#EDE8DC;
+  --lt-line:rgba(16,31,56,.14); --dk-line:rgba(228,207,156,.22); --dk-line-soft:rgba(255,255,255,.09);
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Jost','Avenir Next','Century Gothic',sans-serif;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font:400 16px/1.75 var(--sans);background:var(--navy-900);color:#EDF1F7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body.locked,body.menu-open{overflow:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--gold-500);color:var(--navy-950)}
+:focus-visible{outline:2px solid var(--gold-500);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:12px;z-index:400;background:var(--gold-500);color:var(--navy-950);padding:10px 18px;font:500 12px var(--sans);letter-spacing:.2em;text-transform:uppercase}
+.skip:focus{left:12px}
+
+/* ---------- shared ---------- */
+.wrap{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.sec{padding:clamp(92px,11vw,148px) 0;scroll-margin-top:110px;
+  --fg:var(--ink); --sub:var(--ink-soft); --line:var(--lt-line); --kick:var(--gold-800);
+  background:var(--ivory);color:var(--fg)}
+.sec--dk{--fg:#EDF1F7; --sub:rgba(222,230,240,.68); --line:var(--dk-line-soft); --kick:var(--gold-300);
+  background:var(--navy-900);color:var(--fg)}
+.kick{display:flex;align-items:center;gap:16px;font:500 11px/1 var(--sans);letter-spacing:.4em;text-transform:uppercase;color:var(--kick)}
+.kick::before{content:"";width:36px;height:1px;background:var(--gold-500)}
+.sec h2{font:500 clamp(2.1rem,4.2vw,3.3rem)/1.1 var(--serif);letter-spacing:.005em;margin:20px 0 0}
+.sec h2 em{font-style:italic;color:var(--gold-500)}
+.sec--dk h2 em{color:var(--gold-300)}
+.lead{max-width:60ch;color:var(--sub);font-size:16.5px;margin-top:22px}
+.dia{display:inline-block;width:5px;height:5px;background:var(--gold-500);transform:rotate(45deg);flex:none}
+/* scroll reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--dl,0s)}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- buttons & links ---------- */
+.btn{display:inline-flex;align-items:center;gap:14px;padding:17px 34px;border:1px solid var(--gold-500);
+  color:var(--gold-300);font:500 11px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;
+  background:transparent;transition:.35s var(--ease);white-space:nowrap}
+.btn:hover{background:var(--gold-500);color:var(--navy-900)}
+.btn svg{transition:transform .35s var(--ease)}
+.btn:hover svg{transform:translateX(6px)}
+.arr-link{display:inline-flex;align-items:center;gap:12px;font:500 11px/1 var(--sans);letter-spacing:.3em;
+  text-transform:uppercase;color:var(--gold-300);padding-bottom:6px;border-bottom:1px solid var(--dk-line);transition:.35s var(--ease)}
+.sec--lt .arr-link{color:var(--gold-800);border-bottom-color:var(--lt-line)}
+.arr-link svg{transition:transform .35s var(--ease)}
+.arr-link:hover{color:var(--gold-500)}
+.sec--lt .arr-link:hover{color:var(--gold-700)}
+.arr-link:hover svg{transform:translateX(6px)}
+
+/* ---------- loader ---------- */
+#loader{position:fixed;inset:0;z-index:250;background:var(--navy-950);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:22px;transition:opacity .6s var(--ease),visibility .6s}
+#loader.done{opacity:0;visibility:hidden}
+/* failsafe: if the script ever fails to load, the intro still clears itself */
+#loader{animation:ldFailsafe .5s ease 4s forwards}
+@keyframes ldFailsafe{to{opacity:0;visibility:hidden;pointer-events:none}}
+body.locked{animation:unlockFailsafe .01s linear 4.5s forwards}
+@keyframes unlockFailsafe{to{overflow:auto}}
+.ld-word{display:flex;font:500 clamp(1.6rem,4vw,2.4rem)/1 var(--serif);letter-spacing:.34em;color:#EDF1F7;padding-left:.34em}
+.ld-word span{opacity:0;animation:ldUp .6s var(--ease) both;animation-delay:calc(var(--i)*45ms + 120ms)}
+@keyframes ldUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.ld-line{width:120px;height:1px;background:var(--gold-500);transform:scaleX(0);animation:ldLine .8s var(--ease) .55s forwards}
+@keyframes ldLine{to{transform:scaleX(1)}}
+.ld-sub{font:500 10px/1 var(--sans);letter-spacing:.42em;text-transform:uppercase;color:var(--gold-300);
+  opacity:0;animation:ldUp .6s var(--ease) .75s both}
+
+/* ---------- custom cursor ---------- */
+#cur{position:fixed;inset:0;z-index:320;pointer-events:none;display:none;opacity:1;transition:opacity .25s}
+body.has-cursor #cur{display:block}
+body.has-cursor, body.has-cursor a, body.has-cursor button, body.has-cursor label{cursor:none}
+.cur-dot{position:absolute;left:0;top:0;width:5px;height:5px;margin:-2.5px;border-radius:50%;background:var(--gold-500)}
+.cur-ring{position:absolute;left:0;top:0;width:34px;height:34px;margin:-17px;border-radius:50%;
+  border:1px solid rgba(198,165,92,.55);transition:width .3s var(--ease),height .3s var(--ease),margin .3s var(--ease),border-color .3s}
+#cur.big .cur-ring{width:58px;height:58px;margin:-29px;border-color:var(--gold-300)}
+#cur.off{opacity:0}
+
+/* ---------- announcement banner + header ---------- */
+.topbar{position:fixed;top:0;left:0;right:0;z-index:100}
+#banner{display:flex;align-items:center;justify-content:center;gap:22px;position:relative;
+  background:var(--navy-950);border-bottom:1px solid var(--dk-line);padding:11px 56px}
+#banner p{font:500 10.5px/1.5 var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--gold-300);text-align:center}
+#banner button{position:absolute;right:18px;top:50%;transform:translateY(-50%);color:var(--gold-300);display:flex;padding:6px}
+#banner button:hover{color:var(--gold-500)}
+header.site{display:flex;align-items:center;justify-content:space-between;gap:28px;
+  padding:22px clamp(20px,4vw,44px);transition:padding .4s var(--ease),background .4s,box-shadow .4s}
+.topbar.scrolled header.site{padding-top:13px;padding-bottom:13px;background:rgba(6,13,25,.92);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--dk-line)}
+.brand{display:flex;align-items:center;gap:14px}
+.brand svg{flex:none}
+.brand-t{line-height:1.25}
+.brand-t b{display:block;font:600 12.5px var(--sans);letter-spacing:.3em;color:#EDF1F7}
+.brand-t span{display:block;font:500 9.5px var(--sans);letter-spacing:.46em;color:var(--gold-300);margin-top:2px}
+.nav{display:flex;align-items:center;gap:clamp(16px,2vw,30px)}
+.nav a{position:relative;font:500 11px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;
+  color:rgba(222,230,240,.78);padding:8px 2px;transition:color .3s}
+.nav a::after{content:"";position:absolute;left:0;bottom:2px;width:100%;height:1px;background:var(--gold-500);
+  transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.nav a:hover,.nav a.on{color:var(--gold-300)}
+.nav a:hover::after,.nav a.on::after{transform:scaleX(1)}
+.nav .portal{margin-left:clamp(8px,1.4vw,22px);border:1px solid var(--dk-line);padding:11px 18px;color:var(--gold-300)}
+.nav .portal:hover{border-color:var(--gold-500);background:rgba(198,165,92,.08)}
+.nav .portal::after{display:none}
+.menu-btn{display:none;flex-direction:column;gap:7px;padding:10px 6px;z-index:130}
+.menu-btn i{display:block;width:30px;height:1px;background:var(--gold-300);transition:.4s var(--ease)}
+body.menu-open .menu-btn i:first-child{transform:translateY(4px) rotate(45deg)}
+body.menu-open .menu-btn i:last-child{transform:translateY(-4px) rotate(-45deg)}
+#mobileMenu{position:fixed;inset:0;z-index:110;background:var(--navy-950);display:flex;flex-direction:column;
+  padding:120px 34px 44px;opacity:0;visibility:hidden;transition:.45s var(--ease)}
+body.menu-open #mobileMenu{opacity:1;visibility:visible}
+.mm-link{display:block;font:500 clamp(1.8rem,6.5vw,2.5rem)/1.4 var(--serif);color:#EDF1F7;padding:9px 0;
+  transform:translateY(20px);opacity:0;transition:.55s var(--ease)}
+.mm-link:hover{color:var(--gold-300)}
+body.menu-open .mm-link{transform:none;opacity:1;transition-delay:calc(var(--i)*55ms + 130ms)}
+.mm-foot{margin-top:auto;border-top:1px solid var(--dk-line);padding-top:26px;
+  font:400 13px/1.9 var(--sans);color:rgba(222,230,240,.65)}
+.mm-foot a{color:var(--gold-300)}
+
+/* ---------- hero ---------- */
+.hero{min-height:100svh;display:flex;align-items:center;position:relative;
+  padding:clamp(150px,20vh,210px) 0 84px;scroll-margin-top:0}
+.hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(36px,5vw,70px);align-items:center}
+.hero-copy>*{opacity:0;transform:translateY(26px)}
+body.loaded .hero-copy>*{animation:fadeUp .9s var(--ease) forwards}
+body.loaded .hero-copy>*:nth-child(2){animation-delay:.12s}
+body.loaded .hero-copy>*:nth-child(3){animation-delay:.24s}
+body.loaded .hero-copy>*:nth-child(4){animation-delay:.36s}
+body.loaded .hero-copy>*:nth-child(5){animation-delay:.5s}
+@keyframes fadeUp{to{opacity:1;transform:none}}
+.hero h1{font:500 clamp(2.6rem,5.6vw,4.7rem)/1.06 var(--serif);letter-spacing:.005em;margin:26px 0 0;max-width:16ch}
+.hero h1 em{font-style:italic;color:var(--gold-300)}
+.hero-sub{max-width:52ch;color:rgba(222,230,240,.72);font-size:16.5px;font-weight:300;margin-top:28px}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:30px;margin-top:42px}
+.hero-stats{display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,58px);margin-top:66px;
+  padding-top:34px;border-top:1px solid var(--dk-line)}
+.stat{min-width:110px}
+.stat-n{display:block;font:500 clamp(2rem,3.4vw,2.8rem)/1 var(--serif);color:var(--gold-300)}
+.stat-l{display:block;font:500 10px/1.5 var(--sans);letter-spacing:.26em;text-transform:uppercase;
+  color:rgba(222,230,240,.55);margin-top:9px}
+.hero-art{position:relative;transition:transform 1.1s cubic-bezier(.2,.6,.2,1)}
+.hero-art::before{content:"";position:absolute;inset:-4px;border:1px solid var(--dk-line);pointer-events:none}
+.facade{width:100%;height:auto;display:block}
+.facade .st{stroke:var(--gold-300);fill:none;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;
+  stroke-dasharray:1;stroke-dashoffset:1}
+.facade .st.dim{stroke:rgba(228,207,156,.5);stroke-width:1}
+.hero-art.go .st{animation:draw 1.05s var(--ease) forwards;animation-delay:var(--dd,0s)}
+@keyframes draw{to{stroke-dashoffset:0}}
+.art-cap{display:flex;align-items:center;gap:12px;margin-top:18px;font:500 10px/1 var(--sans);
+  letter-spacing:.3em;text-transform:uppercase;color:rgba(222,230,240,.42)}
+.scroll-cue{position:absolute;left:clamp(20px,4vw,44px);bottom:34px;display:flex;flex-direction:column;
+  align-items:center;gap:12px;font:500 9px/1 var(--sans);letter-spacing:.4em;text-transform:uppercase;
+  color:rgba(222,230,240,.45)}
+.scroll-cue i{display:block;width:1px;height:52px;background:var(--dk-line);position:relative;overflow:hidden}
+.scroll-cue i::after{content:"";position:absolute;left:0;top:-18px;width:1px;height:18px;background:var(--gold-500);
+  animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{to{top:52px}}
+
+/* ---------- ticker ---------- */
+.ticker{background:var(--navy-950);border-top:1px solid var(--dk-line);border-bottom:1px solid var(--dk-line);overflow:hidden}
+.tk-track{display:flex;width:max-content;animation:tick 34s linear infinite;padding:17px 0}
+.ticker:hover .tk-track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+.tk-set{display:flex;align-items:center;gap:44px;padding-right:44px}
+.tk-set span{font:500 10.5px/1 var(--sans);letter-spacing:.34em;text-transform:uppercase;color:var(--gold-300);white-space:nowrap}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(44px,6vw,88px)}
+.about-l{position:sticky;top:130px;align-self:start}
+.glance{margin-top:40px;border-top:1px solid var(--line)}
+.glance div{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:15px 0;border-bottom:1px solid var(--line)}
+.glance dt{font:500 10px/1.7 var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--kick)}
+.glance dd{font-size:14.5px;color:var(--sub)}
+.acc{border-top:1px solid var(--line)}
+.acc-item{border-bottom:1px solid var(--line)}
+.acc-h{display:grid;grid-template-columns:60px 1fr 38px;gap:14px;align-items:center;width:100%;padding:25px 0;text-align:left}
+.acc-no{font:500 12px var(--sans);letter-spacing:.2em;color:var(--kick)}
+.acc-h h3{font:500 1.4rem/1.2 var(--serif);transition:color .3s}
+.acc-h:hover h3{color:var(--gold-800)}
+.acc-x{position:relative;width:34px;height:34px;border:1px solid var(--line);justify-self:end;flex:none}
+.acc-x::before,.acc-x::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:1px;
+  background:var(--gold-800);transform:translate(-50%,-50%);transition:.4s var(--ease)}
+.acc-x::after{transform:translate(-50%,-50%) rotate(90deg)}
+.acc-item.open .acc-x::after{transform:translate(-50%,-50%) rotate(0)}
+.acc-b{display:grid;grid-template-rows:0fr;transition:grid-template-rows .55s var(--ease)}
+.acc-item.open .acc-b{grid-template-rows:1fr}
+.acc-bi{overflow:hidden}
+.acc-bi p{color:var(--sub);max-width:58ch;padding:0 0 14px 60px;font-size:15.5px}
+.vals{padding:0 0 22px 60px}
+.val{display:grid;grid-template-columns:170px 1fr;gap:22px;padding:13px 0;border-top:1px solid var(--line)}
+.val:first-child{border-top:0}
+.val dt{font:500 11px/1.8 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--fg)}
+.val dd{font-size:14px;color:var(--sub)}
+
+/* ---------- method ---------- */
+.rail{position:relative;margin-top:70px}
+.rail-line{position:absolute;top:5px;left:0;right:0;height:1px;background:var(--line)}
+.rail-fill{display:block;height:100%;width:100%;background:var(--gold-500);transform:scaleX(0);
+  transform-origin:left;transition:transform 1.7s var(--ease) .25s}
+.rail.in .rail-fill{transform:scaleX(1)}
+.rail-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:44px;list-style:none}
+.rail-step{position:relative;padding-top:42px}
+.rail-node{position:absolute;top:0;left:0;width:11px;height:11px;border:1px solid var(--gold-500);
+  background:var(--navy-900);transform:rotate(45deg) scale(0);transition:transform .5s var(--ease)}
+.rail.in .rail-node{transform:rotate(45deg) scale(1);transition-delay:calc(var(--i)*.18s + .35s)}
+.rail-no{font:500 11px var(--sans);letter-spacing:.26em;color:var(--gold-300)}
+.rail-step h3{font:500 1.35rem/1.2 var(--serif);margin:12px 0 10px}
+.rail-step p{font-size:14px;color:var(--sub)}
+
+/* ---------- services ---------- */
+.svc-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(44px,6vw,88px)}
+.svc-l{position:sticky;top:130px;align-self:start}
+.svc-group{display:flex;align-items:center;gap:18px;margin:54px 0 6px;
+  font:500 10.5px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--kick)}
+.svc-group::after{content:"";flex:1;height:1px;background:var(--line)}
+.svc-row{display:grid;grid-template-columns:56px 1fr 40px;gap:18px;padding:27px 0;
+  border-top:1px solid var(--line);align-items:start}
+.svc-row:last-of-type{border-bottom:1px solid var(--line)}
+.svc-ix{font:500 12px var(--sans);letter-spacing:.18em;color:var(--kick);padding-top:7px;transition:color .3s}
+.svc-row h3{font:500 1.42rem/1.2 var(--serif);margin-bottom:8px;transition:color .3s var(--ease),transform .4s var(--ease)}
+.svc-row p{color:var(--sub);font-size:14.5px;max-width:58ch}
+.svc-arr{color:var(--gold-800);opacity:0;transform:translateX(-10px);transition:.4s var(--ease);padding-top:8px}
+.svc-row:hover h3{color:var(--gold-800);transform:translateX(8px)}
+.svc-row:hover .svc-arr{opacity:1;transform:none}
+
+/* ---------- portfolio ---------- */
+.prj{border-top:1px solid var(--dk-line-soft)}
+.prj:last-of-type{border-bottom:1px solid var(--dk-line-soft)}
+.prj-head{display:grid;grid-template-columns:58px 1fr 42px;gap:18px;align-items:center;width:100%;
+  padding:30px 0;text-align:left}
+.prj-no{font:500 13px var(--sans);letter-spacing:.2em;color:var(--gold-300)}
+.prj-title h3{font:500 clamp(1.4rem,2.4vw,1.9rem)/1.15 var(--serif);transition:color .3s}
+.prj-meta{font:500 10.5px/1.6 var(--sans);letter-spacing:.22em;text-transform:uppercase;
+  color:rgba(222,230,240,.5);margin-top:8px}
+.prj-head:hover .prj-title h3{color:var(--gold-300)}
+.prj-x{position:relative;width:38px;height:38px;border:1px solid var(--dk-line);justify-self:end;flex:none;transition:border-color .35s}
+.prj-x::before,.prj-x::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1px;
+  background:var(--gold-300);transform:translate(-50%,-50%);transition:.4s var(--ease)}
+.prj-x::after{transform:translate(-50%,-50%) rotate(90deg)}
+.prj.open .prj-x{border-color:var(--gold-500)}
+.prj.open .prj-x::after{transform:translate(-50%,-50%) rotate(0)}
+.prj-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .65s var(--ease)}
+.prj.open .prj-body{grid-template-rows:1fr}
+.prj-inner{overflow:hidden}
+.prj-cols{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,4vw,52px);padding:8px 0 46px 58px}
+.duo{position:relative;overflow:hidden}
+.duo img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05) brightness(.88);transition:filter .7s var(--ease)}
+.duo::after{content:"";position:absolute;inset:0;background:rgba(10,23,48,.24);transition:background .7s}
+.duo:hover img{filter:grayscale(0) contrast(1.02)}
+.duo:hover::after{background:rgba(10,23,48,0)}
+.prj-desc{color:var(--sub);font-size:15.5px;max-width:60ch}
+.prj-roles{margin-top:24px;padding-top:22px;border-top:1px solid var(--dk-line-soft)}
+.prj-roles strong{display:block;font:500 10px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-300);margin-bottom:12px}
+.prj-roles p{font-size:13.5px;line-height:2.1;color:rgba(222,230,240,.55)}
+
+/* ---------- clients / network ---------- */
+.cli-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(44px,6vw,90px)}
+.cli-row{display:grid;grid-template-columns:14px 1fr;gap:18px;padding:17px 0;border-top:1px solid var(--line);align-items:baseline}
+.cli-list .cli-row:last-of-type{border-bottom:1px solid var(--line)}
+.cli-row .dia{position:relative;top:-2px}
+.cli-row h3{font:500 1.18rem/1.3 var(--serif);transition:color .3s}
+.cli-row:hover h3{color:var(--gold-800)}
+.cli-row p{font-size:13px;color:var(--sub);margin-top:3px}
+.net-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px;margin-top:30px;
+  border-top:1px solid var(--line)}
+.net-item{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);
+  font-size:14px;color:var(--sub)}
+.foot-note{margin-top:26px;font:italic 500 14px var(--serif);color:var(--sub)}
+
+/* ---------- leadership ---------- */
+.lead-feat{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(40px,6vw,80px);
+  align-items:start;margin-top:56px}
+.lead-fig{position:relative;margin:0 16px 16px 0}
+.lead-fig::after{content:"";position:absolute;inset:0;border:1px solid var(--gold-700);
+  transform:translate(16px,16px);pointer-events:none}
+.lead-fig .duo{aspect-ratio:4/5}
+.lead-name{font:500 clamp(1.9rem,3vw,2.5rem)/1.1 var(--serif)}
+.lead-role{font:500 10.5px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--kick);margin:14px 0 24px}
+.lead-bio p{color:var(--sub);font-size:15px;max-width:62ch}
+.lead-bio p+p{margin-top:16px}
+.hl{display:flex;flex-wrap:wrap;gap:14px 30px;margin-top:30px;padding-top:26px;border-top:1px solid var(--line)}
+.hl span{display:flex;align-items:center;gap:11px;font:500 10.5px/1.5 var(--sans);
+  letter-spacing:.18em;text-transform:uppercase;color:var(--sub)}
+.lead-two{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(40px,6vw,80px);
+  margin-top:70px;padding-top:60px;border-top:1px solid var(--line);align-items:start}
+.lead-two .lead-fig{margin:0 12px 12px 0}
+.lead-two .lead-fig .duo{aspect-ratio:4/5}
+.lead-two .lead-name{font-size:clamp(1.5rem,2.4vw,1.9rem)}
+
+/* ---------- statement ---------- */
+.stmt{text-align:center}
+.stmt .kick{justify-content:center}
+.stmt .kick::before{display:none}
+.stmt .kick::after{content:"";width:36px;height:1px;background:var(--gold-500)}
+.stmt-dia{margin:34px auto 0;display:block;width:8px;height:8px;background:var(--gold-500);transform:rotate(45deg)}
+.commits{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 18px;margin-top:44px}
+.commit{display:flex;align-items:center;gap:11px;font:500 10.5px/1.6 var(--sans);
+  letter-spacing:.2em;text-transform:uppercase;color:var(--sub)}
+
+/* ---------- contact ---------- */
+.con-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(48px,6vw,90px)}
+.c-rows{margin-top:44px;border-top:1px solid var(--dk-line)}
+.c-row{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid var(--dk-line-soft);align-items:flex-start}
+.c-ic{color:var(--gold-300);padding-top:4px;flex:none}
+.c-row dt{font:500 9.5px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:rgba(222,230,240,.5);margin-bottom:7px}
+.c-row dd{font:500 1.12rem/1.45 var(--serif)}
+.c-row a:hover{color:var(--gold-300)}
+.c-hours{margin-top:22px;font-size:13px;color:rgba(222,230,240,.5)}
+.frm-dark .field{margin-bottom:30px}
+.frm-dark label{display:block;font:500 9.5px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;
+  color:var(--gold-300);margin-bottom:11px}
+.frm-dark input,.frm-dark textarea,.frm-dark select{width:100%;background:transparent;border:0;
+  border-bottom:1px solid rgba(228,207,156,.3);color:#F1EEE5;font:400 16px/1.55 var(--sans);
+  padding:10px 2px 13px;transition:border-color .3s;border-radius:0;caret-color:var(--gold-500)}
+.frm-dark select{appearance:none;-webkit-appearance:none;padding-right:26px;cursor:pointer;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23C6A55C' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 4px center}
+.frm-dark select option{color:var(--ink);background:var(--paper)}
+.frm-dark input:focus,.frm-dark textarea:focus,.frm-dark select:focus{outline:none;border-bottom-color:var(--gold-500)}
+.frm-dark ::placeholder{color:rgba(222,230,240,.35)}
+.frm-dark textarea{resize:vertical;min-height:110px}
+.hp{position:absolute;left:-999px;top:-999px}
+.frm-note{margin-top:18px;font-size:12.5px;color:rgba(222,230,240,.45);line-height:1.7}
+#frmOk{border:1px solid var(--dk-line);padding:44px 40px;text-align:center}
+#frmOk .ok-ic{color:var(--gold-300);margin:0 auto 18px}
+#frmOk h3{font:500 1.9rem/1.2 var(--serif)}
+#frmOk p{color:rgba(222,230,240,.65);font-size:15px;margin:12px 0 26px}
+
+/* ---------- footer ---------- */
+footer.site{background:var(--navy-950);border-top:1px solid var(--dk-line);padding:74px 0 34px}
+.ft-grid{display:grid;grid-template-columns:minmax(0,5fr) repeat(2,minmax(0,3fr));gap:clamp(36px,5vw,70px)}
+.ft-line{margin-top:22px;font-size:13.5px;color:rgba(222,230,240,.5);max-width:34ch}
+.ft-h{font:500 10px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold-300);margin-bottom:20px}
+.ft-grid ul{list-style:none}
+.ft-grid ul a{display:block;font-size:14px;color:rgba(222,230,240,.62);padding:5px 0;transition:color .3s}
+.ft-grid ul a:hover{color:var(--gold-300)}
+.ft-c{font-size:14px;color:rgba(222,230,240,.62);line-height:2.1;font-style:normal}
+.ft-c a:hover{color:var(--gold-300)}
+.ft-bot{display:flex;flex-wrap:wrap;gap:14px 34px;justify-content:space-between;align-items:center;
+  margin-top:64px;padding-top:26px;border-top:1px solid var(--dk-line);
+  font:500 10px/1.7 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:rgba(222,230,240,.4)}
+.ft-bot a{color:var(--gold-300)}
+
+/* ---------- toasts ---------- */
+#toasts{position:fixed;right:24px;bottom:24px;z-index:340;display:flex;flex-direction:column;gap:12px;max-width:min(370px,calc(100vw - 48px))}
+.toast{display:flex;gap:16px;align-items:flex-start;background:var(--navy-800);border:1px solid var(--dk-line);
+  border-left:2px solid var(--gold-500);color:#EDF1F7;padding:16px 18px;
+  transform:translateY(14px);opacity:0;transition:.45s var(--ease)}
+.toast.on{transform:none;opacity:1}
+.toast b{display:block;font:500 9.5px/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;
+  color:var(--gold-300);margin-bottom:7px}
+.toast p{font-size:13.5px;line-height:1.6;color:rgba(222,230,240,.85)}
+.toast .t-x{color:rgba(222,230,240,.5);padding:2px;flex:none}
+.toast .t-x:hover{color:var(--gold-300)}
+
+/* ================================================================
+   THE PRIVATE DESK — client dashboard
+================================================================ */
+body.in-dash{overflow:hidden}
+body.in-dash .topbar,body.in-dash main,body.in-dash footer.site{display:none}
+#dash{position:fixed;inset:0;z-index:120;background:var(--dash-bg);color:var(--ink);display:flex;flex-direction:column}
+#dash[hidden]{display:none}
+
+/* login */
+#dashLogin{position:absolute;inset:0;display:grid;place-items:center;background:var(--navy-900);padding:24px;overflow:auto}
+#dashLogin[hidden]{display:none}
+.login-card{width:min(410px,100%);background:var(--navy-800);border:1px solid var(--dk-line);padding:48px 42px 42px}
+.login-card .mono{display:block;margin:0 auto 26px}
+.login-card h2{font:500 1.9rem/1.1 var(--serif);color:#EDF1F7;text-align:center}
+.login-card .l-sub{text-align:center;font:500 10px/1.8 var(--sans);letter-spacing:.24em;text-transform:uppercase;
+  color:rgba(222,230,240,.5);margin:12px 0 34px}
+.login-card .field{margin-bottom:26px}
+.login-card label{display:block;font:500 9.5px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--gold-300);margin-bottom:10px}
+.login-card input{width:100%;background:transparent;border:0;border-bottom:1px solid rgba(228,207,156,.3);
+  color:#F1EEE5;font:400 15px/1.5 var(--sans);padding:9px 2px 12px;caret-color:var(--gold-500)}
+.login-card input:focus{outline:none;border-bottom-color:var(--gold-500)}
+.login-err{min-height:22px;font-size:12.5px;color:#E08A7E;margin:2px 0 14px}
+.login-hint{font-size:11.5px;color:rgba(222,230,240,.4);text-align:center;margin-top:22px;letter-spacing:.04em}
+.login-card .btn{width:100%;justify-content:center}
+.login-card.shake{animation:shk .4s}
+@keyframes shk{25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+
+/* shell */
+#dashShell{display:flex;height:100%;width:100%}
+#dashShell[hidden]{display:none}
+.d-rail{width:252px;flex:none;background:var(--navy-900);color:#EDF1F7;display:flex;flex-direction:column;padding:30px 0 24px}
+.d-brand{display:flex;align-items:center;gap:13px;padding:0 26px 28px;border-bottom:1px solid var(--dk-line-soft)}
+.d-brand b{display:block;font:600 11px var(--sans);letter-spacing:.26em}
+.d-brand span{display:block;font:500 8.5px var(--sans);letter-spacing:.4em;color:var(--gold-300);margin-top:3px}
+.d-rail nav{padding:20px 0;flex:1}
+.d-nav{display:flex;align-items:center;gap:15px;width:100%;padding:15px 26px;color:rgba(222,230,240,.6);
+  font:500 10.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;border-left:2px solid transparent;transition:.3s}
+.d-nav svg{flex:none}
+.d-nav:hover,.d-nav.on{color:var(--gold-300);border-left-color:var(--gold-500);background:rgba(255,255,255,.03)}
+.d-badge{margin-left:auto;background:var(--gold-500);color:var(--navy-900);font:600 10px/1 var(--sans);
+  padding:4px 8px;border-radius:12px}
+.d-user{display:flex;align-items:center;gap:12px;padding:18px 26px 0;border-top:1px solid var(--dk-line-soft);
+  font-size:12px;color:rgba(222,230,240,.6)}
+.d-user svg{color:var(--gold-300)}
+.d-user form{margin-left:auto}
+.d-user button{color:rgba(222,230,240,.55);display:flex;padding:6px;transition:color .3s}
+.d-user button:hover{color:var(--gold-300)}
+
+.d-main{flex:1;overflow-y:auto;padding:42px 52px 30px}
+.d-top{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:flex-end;
+  padding-bottom:22px;margin-bottom:34px;border-bottom:1px solid var(--lt-line)}
+.d-top h2{font:500 2.1rem/1.1 var(--serif)}
+.d-top .d-date{font:500 10px/1.7 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-800)}
+.d-top .d-site{display:inline-flex;align-items:center;gap:10px;font:500 10.5px/1 var(--sans);
+  letter-spacing:.22em;text-transform:uppercase;color:var(--ink);border:1px solid var(--lt-line);padding:11px 16px;transition:.3s}
+.d-top .d-site:hover{border-color:var(--gold-700);color:var(--gold-800)}
+.d-view[hidden]{display:none}
+
+.d-ledger{display:grid;grid-template-columns:repeat(4,1fr);background:#FBF8F1;border:1px solid var(--lt-line);margin-bottom:32px}
+.d-led{padding:24px 26px;border-left:1px solid var(--lt-line)}
+.d-led:first-child{border-left:0}
+.d-led-n{display:block;font:500 2.3rem/1 var(--serif);color:var(--navy-800)}
+.d-led-l{display:block;font:500 9.5px/1.6 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold-800);margin-top:10px}
+
+.d-cols{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:26px;align-items:start}
+.d-panel{background:#FBF8F1;border:1px solid var(--lt-line)}
+.d-panel-h{display:flex;justify-content:space-between;align-items:center;padding:19px 24px;border-bottom:1px solid var(--lt-line)}
+.d-panel-h h3{font:500 1.35rem/1 var(--serif)}
+.d-panel-h button,.d-panel-h a{font:500 9.5px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-800);padding:6px 0}
+.d-panel-h button:hover,.d-panel-h a:hover{color:var(--ink)}
+.d-quick{list-style:none;padding:8px 0}
+.d-quick a,.d-quick button{display:flex;align-items:center;gap:15px;width:100%;padding:15px 24px;
+  font-size:13.5px;color:var(--ink-soft);border-left:2px solid transparent;transition:.3s}
+.d-quick a:hover,.d-quick button:hover{color:var(--ink);border-left-color:var(--gold-500);background:rgba(16,31,56,.03)}
+.d-quick svg{color:var(--gold-700)}
+.d-note{padding:16px 24px 20px;border-top:1px solid var(--lt-line);font-size:12px;line-height:1.7;color:var(--ink-soft)}
+
+/* requests */
+.rq-filters{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+.rq-f{font:500 10px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);
+  border:1px solid var(--lt-line);background:#FBF8F1;padding:10px 16px;transition:.3s}
+.rq-f:hover{color:var(--ink)}
+.rq-f.on{background:var(--navy-800);color:var(--gold-300);border-color:var(--navy-800)}
+.rq{border:1px solid var(--lt-line);background:#FBF8F1;margin-bottom:12px}
+.rq-h{display:grid;grid-template-columns:16px minmax(0,1.3fr) minmax(0,1.4fr) auto 30px;gap:16px;
+  align-items:center;width:100%;padding:18px 22px;text-align:left}
+.rq-dot{width:8px;height:8px;border-radius:50%;background:#B9C2CC}
+.rq.new .rq-dot{background:var(--gold-500)}
+.rq-name{font:500 1.05rem/1.2 var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rq-int{font:500 9.5px/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold-800)}
+.rq-date{font-size:12px;color:var(--ink-soft);white-space:nowrap}
+.rq-h svg{color:var(--ink-soft);transition:transform .35s;justify-self:end}
+.rq.open .rq-h svg{transform:rotate(180deg)}
+.rq-b{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.rq.open .rq-b{grid-template-rows:1fr}
+.rq-bi{overflow:hidden}
+.rq-detail{padding:6px 22px 22px;border-top:1px solid var(--lt-line)}
+.rq-meta{display:flex;flex-wrap:wrap;gap:8px 40px;padding:16px 0}
+.rq-meta div{font-size:13px;color:var(--ink-soft)}
+.rq-meta a{color:var(--ink);border-bottom:1px solid var(--gold-500)}
+.rq-msg{font:italic 400 15px/1.8 var(--serif);color:var(--ink);padding:18px 20px;
+  background:rgba(16,31,56,.04);border-left:2px solid var(--gold-500)}
+.rq-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.d-btn{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--navy-700);color:var(--navy-800);
+  font:500 9.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;padding:12px 18px;transition:.3s}
+.d-btn:hover{background:var(--navy-800);color:var(--gold-300)}
+.d-btn.danger{border-color:#B0413E;color:#A03A37}
+.d-btn.danger:hover,.d-btn.armed{background:#B0413E;border-color:#B0413E;color:#fff}
+.rq-empty{text-align:center;padding:70px 20px}
+.rq-empty svg{color:var(--gold-700);margin:0 auto 16px}
+.rq-empty h4{font:500 1.4rem/1 var(--serif)}
+.rq-empty p{font-size:13.5px;color:var(--ink-soft);margin-top:10px}
+
+/* content editor */
+.d-form fieldset{border:1px solid var(--lt-line);background:#FBF8F1;padding:24px 26px 12px;margin:0 0 26px}
+.d-form legend{font:500 10px/1 var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--gold-800);padding:0 12px}
+.d-row{margin-bottom:24px}
+.d-row label{display:block;font:500 9.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px}
+.d-row input[type=text],.d-row input[type=email],.d-row textarea{width:100%;background:#fff;
+  border:1px solid var(--lt-line);color:var(--ink);font:400 14.5px/1.6 var(--sans);padding:12px 14px;transition:border-color .3s}
+.d-row textarea{resize:vertical;min-height:76px}
+.d-row input:focus,.d-row textarea:focus{outline:none;border-color:var(--gold-500)}
+.d-sw{display:flex;align-items:center;gap:16px}
+.sw{position:relative;width:46px;height:25px;flex:none}
+.sw input{position:absolute;inset:0;opacity:0;cursor:pointer;z-index:1}
+.sw i{display:block;position:absolute;inset:0;background:#E7E0D0;border:1px solid var(--lt-line);border-radius:25px;transition:.3s}
+.sw i::after{content:"";position:absolute;top:3px;left:3px;width:17px;height:17px;border-radius:50%;background:var(--navy-800);transition:.3s}
+.sw input:checked+i{background:var(--gold-500);border-color:var(--gold-700)}
+.sw input:checked+i::after{left:24px;background:var(--navy-900)}
+.sw-t{font-size:13px;color:var(--ink-soft)}
+.cf-prj{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;padding:14px 0;border-top:1px solid var(--lt-line)}
+.cf-prj:first-of-type{border-top:0}
+.cf-prj b{font:500 1.05rem/1.3 var(--serif)}
+.cf-prj span{display:block;font:500 9px/1.7 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+.d-save{position:sticky;bottom:0;background:var(--dash-bg);padding:18px 0 6px;border-top:1px solid var(--lt-line);
+  display:flex;justify-content:flex-end;gap:14px;z-index:2}
+.d-save .btn-solid{background:var(--navy-800);border:1px solid var(--navy-800);color:var(--gold-300);
+  font:500 10px/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;padding:15px 26px;transition:.3s}
+.d-save .btn-solid:hover{background:var(--navy-950)}
+.d-save .btn-plain{font:500 10px/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;
+  color:var(--ink-soft);padding:15px 10px}
+.d-save .btn-plain:hover{color:var(--ink)}
+
+/* ---------- responsive ---------- */
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:56px}
+  .hero-art{max-width:440px}
+  .scroll-cue{display:none}
+}
+@media (max-width:1000px){
+  .nav{display:none}
+  .menu-btn{display:flex}
+  .about-grid,.svc-grid,.cli-grid,.con-grid{grid-template-columns:1fr}
+  .about-l,.svc-l{position:static}
+  .rail-steps{grid-template-columns:1fr;gap:38px}
+  .rail-line{top:0;bottom:0;left:5px;right:auto;width:1px;height:auto}
+  .rail-fill{transform:scaleY(0);transform-origin:top;width:100%;height:100%}
+  .rail.in .rail-fill{transform:scaleY(1)}
+  .rail-step{padding-top:0;padding-left:42px}
+  .rail-node{top:6px}
+}
+@media (max-width:820px){
+  .prj-cols{grid-template-columns:1fr;padding-left:0;gap:26px}
+  .lead-feat,.lead-two{grid-template-columns:1fr;gap:36px}
+  .lead-fig{max-width:340px}
+  .d-cols{grid-template-columns:1fr}
+  .d-ledger{grid-template-columns:repeat(2,1fr)}
+  .d-led:nth-child(3){border-left:0}
+  .d-led{border-top:1px solid var(--lt-line)}
+  .d-led:nth-child(-n+2){border-top:0}
+  .hero-stats{gap:26px 40px}
+}
+@media (max-width:920px){
+  #dashShell{flex-direction:column}
+  .d-rail{width:100%;flex-direction:row;align-items:center;padding:10px 16px;gap:8px}
+  .d-brand{padding:0 14px 0 4px;border:0}
+  .d-rail nav{display:flex;padding:0;flex:1;overflow-x:auto}
+  .d-nav{padding:12px 14px;border-left:0;border-bottom:2px solid transparent;white-space:nowrap}
+  .d-nav.on,.d-nav:hover{border-left:0;border-bottom-color:var(--gold-500)}
+  .d-user{border:0;padding:0 4px 0 10px}
+  .d-main{padding:26px 20px 30px;overflow-y:auto}
+}
+@media (max-width:640px){
+  .prj-head{grid-template-columns:40px 1fr 42px}
+  .acc-h{grid-template-columns:40px 1fr 38px}
+  .acc-bi p,.vals{padding-left:0}
+  .rq-h{grid-template-columns:14px 1fr auto}
+  .rq-int,.rq-date{display:none}
+  .val{grid-template-columns:1fr;gap:6px}
+  .glance div{grid-template-columns:1fr;gap:6px}
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:.01ms!important}
+  .hero-copy>*,.rv{opacity:1;transform:none}
+  .facade .st{stroke-dashoffset:0;animation:none!important}
+  .tk-track{animation:none}
+  body.has-cursor #cur{display:none}
+}
+#insights[hidden]{display:none}
+.ins-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;margin-top:48px}
+.ins-card{display:block;border:1px solid var(--lt-line);background:#FBF8F1;color:var(--ink);transition:transform .4s,border-color .4s}
+.ins-card:hover{transform:translateY(-4px);border-color:var(--gold-500)}
+.ins-card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.ins-card div{padding:22px 24px 26px}
+.ins-card time{font:500 9.5px/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--gold-800)}
+.ins-card h3{font:500 1.4rem/1.2 var(--serif);margin:12px 0 10px}
+.ins-card p{font-size:13.5px;line-height:1.6;color:var(--ink-soft)}
+.pf-hint{font-size:12px;color:var(--ink-soft);margin:-8px 0 20px}
+.ps-row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 24px;border-bottom:1px solid var(--lt-line)}
+.ps-row h4{font:500 1.05rem/1.2 var(--serif)}.ps-row p{font-size:12.5px;color:var(--ink-soft);margin-top:3px}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- custom cursor -->
+<div id="cur" aria-hidden="true"><div class="cur-ring"></div><div class="cur-dot"></div></div>
+
+<!-- intro loader -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-word">
+    <span style="--i:0">R</span><span style="--i:1">A</span><span style="--i:2">R</span><span style="--i:3">I</span><span style="--i:4">F</span><span style="--i:5">I</span><span style="--i:6">E</span><span style="--i:7">D</span>
+  </div>
+  <div class="ld-line"></div>
+  <p class="ld-sub">One Solutions · Lagos</p>
+</div>
+
+<div class="topbar" id="topbar">
+  <!-- announcement bar (managed from the Private Desk) -->
+  <aside id="banner" hidden>
+    <p id="bannerText"></p>
+    <button id="bannerClose" aria-label="Dismiss announcement">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 1l12 12M13 1L1 13"/></svg>
+    </button>
+  </aside>
+
+  <header class="site" id="siteHeader">
+    <a class="brand" href="#hero" aria-label="Rarified One Solutions — home">
+      <svg width="40" height="40" viewBox="0 0 44 44" aria-hidden="true">
+        <rect x="9" y="9" width="26" height="26" fill="none" stroke="#C6A55C" stroke-width="1" transform="rotate(45 22 22)"/>
+        <text x="22" y="29" font-family="Cormorant Garamond,Georgia,serif" font-size="19" fill="#E4CF9C" text-anchor="middle">R</text>
+      </svg>
+      <span class="brand-t"><b>RARIFIED ONE</b><span>SOLUTIONS</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#method">Approach</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
+      <a class="portal" href="#dashboard">Client Portal</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+</div>
+
+<!-- mobile menu -->
+<div id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <a class="mm-link" style="--i:0" href="#about">About</a>
+    <a class="mm-link" style="--i:1" href="#method">Approach</a>
+    <a class="mm-link" style="--i:2" href="#services">Services</a>
+    <a class="mm-link" style="--i:3" href="#portfolio">Portfolio</a>
+    <a class="mm-link" style="--i:4" href="#leadership">Leadership</a>
+    <a class="mm-link" style="--i:5" href="#insights">Insights</a>
+    <a class="mm-link" style="--i:6" href="#contact">Contact</a>
+    <a class="mm-link" style="--i:7" href="#dashboard">Client Portal</a>
+  </nav>
+  <div class="mm-foot">
+    2nd Floor, Trulease Building, 290A Ajose Adeogun Street, Victoria Island, Lagos<br>
+    <a href="tel:+2348143807444">+234 (0) 814 380 7444</a> · <a href="mailto:rarifiedonesolutions@gmail.com">rarifiedonesolutions@gmail.com</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero sec--dk" id="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kick">Multi-Disciplinary Real Estate Advisory · Lagos</p>
+        <h1><span id="cHeroTitle">Discerning counsel for the</span> <em>entire property lifecycle.</em></h1>
+        <p class="hero-sub" id="cHeroSub">Rarified One Solutions unites development, agency brokerage, investment advisory, asset &amp; property management and strategic procurement under a single point of accountability — protecting capital and maximising yield at every stage.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contact">Request a Private Consultation
+            <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg>
+          </a>
+          <a class="arr-link" href="#portfolio">Explore the Portfolio
+            <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-n" data-count="10" data-suf="+">0</span><span class="stat-l">Years of leadership</span></div>
+          <div class="stat"><span class="stat-n" data-count="7">0</span><span class="stat-l">Projects delivered</span></div>
+          <div class="stat"><span class="stat-n" data-count="44" data-suf="+">0</span><span class="stat-l">Units realised</span></div>
+          <div class="stat"><span class="stat-n" data-count="4">0</span><span class="stat-l">Prime Lagos districts</span></div>
+        </div>
+      </div>
+
+      <figure class="hero-art" id="heroArt" aria-hidden="true">
+        <svg class="facade" id="facade" viewBox="0 0 560 620" role="img" aria-label="Architectural line drawing of a luxury residence">
+          <circle class="st" cx="86" cy="92" r="34" pathLength="1" style="--dd:.25s"/>
+          <path class="st" d="M236 64q7-8 14 0" pathLength="1" style="--dd:2.1s"/>
+          <path class="st" d="M258 54q6-7 12 0" pathLength="1" style="--dd:2.2s"/>
+          <path class="st" d="M36 500h488" pathLength="1" style="--dd:.2s"/>
+          <path class="st" d="M268 500V132h184v368" pathLength="1" style="--dd:.4s"/>
+          <path class="st" d="M116 500V308h152" pathLength="1" style="--dd:.6s"/>
+          <path class="st" d="M402 132v-28h44v28" pathLength="1" style="--dd:1.15s"/>
+          <path class="st" d="M430 104V58" pathLength="1" style="--dd:1.25s"/>
+          <circle class="st" cx="430" cy="52" r="5" pathLength="1" style="--dd:1.3s"/>
+          <path class="st" d="M268 180h184" pathLength="1" style="--dd:.75s"/>
+          <path class="st" d="M268 228h184" pathLength="1" style="--dd:.82s"/>
+          <path class="st" d="M268 276h184" pathLength="1" style="--dd:.89s"/>
+          <path class="st" d="M268 324h184" pathLength="1" style="--dd:.96s"/>
+          <path class="st" d="M268 372h184" pathLength="1" style="--dd:1.03s"/>
+          <path class="st" d="M268 420h184" pathLength="1" style="--dd:1.1s"/>
+          <path class="st" d="M268 468h184" pathLength="1" style="--dd:1.17s"/>
+          <path class="st" d="M116 356h152" pathLength="1" style="--dd:.85s"/>
+          <path class="st" d="M116 404h152" pathLength="1" style="--dd:.93s"/>
+          <path class="st" d="M116 452h152" pathLength="1" style="--dd:1s"/>
+          <path class="st" d="M124 296h136" pathLength="1" style="--dd:1.35s"/>
+          <path class="st" d="M168 500v-60h44v60" pathLength="1" style="--dd:1.45s"/>
+          <path class="st" d="M190 440v60" pathLength="1" style="--dd:1.55s"/>
+          <path class="st" d="M168 468h44" pathLength="1" style="--dd:1.58s"/>
+          <path class="st" d="M156 430h68" pathLength="1" style="--dd:1.5s"/>
+          <path class="st" d="M160 430v10" pathLength="1" style="--dd:1.6s"/>
+          <path class="st" d="M220 430v10" pathLength="1" style="--dd:1.62s"/>
+          <path class="st" d="M156 508h68" pathLength="1" style="--dd:1.7s"/>
+          <path class="st" d="M160 516h60" pathLength="1" style="--dd:1.72s"/>
+          <circle class="st dim" cx="78" cy="462" r="22" pathLength="1" style="--dd:1.8s"/>
+          <path class="st" d="M78 484v16" pathLength="1" style="--dd:1.85s"/>
+          <path class="st dim" d="M66 466q12-14 24 0" pathLength="1" style="--dd:1.95s"/>
+          <path class="st dim" d="M70 452q8-9 16 0" pathLength="1" style="--dd:2s"/>
+          <circle class="st dim" cx="508" cy="458" r="24" pathLength="1" style="--dd:1.8s"/>
+          <path class="st" d="M508 482v18" pathLength="1" style="--dd:1.85s"/>
+          <path class="st dim" d="M496 462q12-14 24 0" pathLength="1" style="--dd:1.95s"/>
+          <g id="facadeWin"></g>
+        </svg>
+        <figcaption class="art-cap"><span class="dia"></span> Osborne Foreshore, Ikoyi — elevation study</figcaption>
+      </figure>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">Scroll<i></i></div>
+  </section>
+
+  <!-- practice ticker -->
+  <div class="ticker" aria-hidden="true">
+    <div class="tk-track">
+      <div class="tk-set"><span>Development</span><span class="dia"></span><span>Agency &amp; Brokerage</span><span class="dia"></span><span>Investment Advisory</span><span class="dia"></span><span>Asset &amp; Property Management</span><span class="dia"></span><span>Strategic Procurement</span><span class="dia"></span><span>Title &amp; Statutory Compliance</span><span class="dia"></span><span>Joint-Venture Structuring</span><span class="dia"></span><span>Marketing &amp; Sales</span><span class="dia"></span></div>
+      <div class="tk-set"><span>Development</span><span class="dia"></span><span>Agency &amp; Brokerage</span><span class="dia"></span><span>Investment Advisory</span><span class="dia"></span><span>Asset &amp; Property Management</span><span class="dia"></span><span>Strategic Procurement</span><span class="dia"></span><span>Title &amp; Statutory Compliance</span><span class="dia"></span><span>Joint-Venture Structuring</span><span class="dia"></span><span>Marketing &amp; Sales</span><span class="dia"></span></div>
+    </div>
+  </div>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="sec" id="about">
+    <div class="wrap about-grid">
+      <div class="about-l rv">
+        <p class="kick">01 · The Firm</p>
+        <h2>One partner, <em>the whole life</em> of property.</h2>
+        <p class="lead">Rooted in development expertise, Rarified One Solutions delivers a full suite of professional real estate services — brokerage, investment advisory, asset and property management, strategic procurement and project consulting — combining market intelligence with operational precision.</p>
+        <p class="lead">We serve institutional investors, private property owners, corporate occupiers and developers, bridging the gap between strategic vision and measurable financial returns.</p>
+        <dl class="glance">
+          <div><dt>Practice</dt><dd>Development · Agency · Advisory · Management · Procurement</dd></div>
+          <div><dt>Coverage</dt><dd>Ikoyi · Lekki · Victoria Island · Ikeja</dd></div>
+          <div><dt>Headquarters</dt><dd>Trulease Building, Ajose Adeogun Street, Victoria Island</dd></div>
+        </dl>
+      </div>
+      <div class="rv" style="--dl:.15s">
+        <div class="acc" id="valsAcc">
+          <div class="acc-item open">
+            <button class="acc-h" aria-expanded="true"><span class="acc-no">I.</span><h3>What Drives Us — Mission</h3><span class="acc-x"></span></button>
+            <div class="acc-b"><div class="acc-bi"><p>To maximise the value of real estate investments across their entire lifecycle by delivering seamless brokerage, rigorous management, strategic advisory and procurement solutions grounded in market intelligence and operational precision.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-h" aria-expanded="false"><span class="acc-no">II.</span><h3>The Benchmark We Pursue — Vision</h3><span class="acc-x"></span></button>
+            <div class="acc-b"><div class="acc-bi"><p>To be the premier multi-disciplinary real estate advisory and professional services firm, recognised for setting the benchmark in asset performance, agency integrity, and execution excellence.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-h" aria-expanded="false"><span class="acc-no">III.</span><h3>Core Values</h3><span class="acc-x"></span></button>
+            <div class="acc-b"><div class="acc-bi">
+              <dl class="vals">
+                <div class="val"><dt>Integrity</dt><dd>Transparent execution and honest advisory in every transaction.</dd></div>
+                <div class="val"><dt>Quality</dt><dd>Strict precision in QA/QC, finishes, and property management standards.</dd></div>
+                <div class="val"><dt>Innovation</dt><dd>Data-backed insights and modern tools to maximise asset performance.</dd></div>
+                <div class="val"><dt>Collaboration</dt><dd>Strategic partnerships with leading industry experts for optimal outcomes.</dd></div>
+                <div class="val"><dt>Client-Centricity</dt><dd>Protecting capital and maximising yield at every stage of the property lifecycle.</dd></div>
+              </dl>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= METHOD ================= -->
+  <section class="sec sec--dk" id="method">
+    <div class="wrap">
+      <div class="rv">
+        <p class="kick">02 · Our Approach</p>
+        <h2>The Rarified <em>Method.</em></h2>
+        <p class="lead">A hands-on, multi-disciplinary approach ensures every transaction, project and property asset is strategically managed across its entire lifecycle — from initial market advisory and agency representation to strategic procurement and long-term property management. Our methods are designed to mitigate risk, optimise costs and maximise asset yield.</p>
+      </div>
+      <div class="rail" id="rail">
+        <div class="rail-line"><span class="rail-fill"></span></div>
+        <ol class="rail-steps">
+          <li class="rail-step" style="--i:0"><span class="rail-node"></span><span class="rail-no">01</span><h3>Market Intelligence</h3><p>Valuations, market trends and investment strategies grounded in real-time data.</p></li>
+          <li class="rail-step" style="--i:1"><span class="rail-node"></span><span class="rail-no">02</span><h3>Operational &amp; QA/QC Precision</h3><p>Rigorous oversight and quality control applied to property operations and projects.</p></li>
+          <li class="rail-step" style="--i:2"><span class="rail-node"></span><span class="rail-no">03</span><h3>Strategic Industry Networks</h3><p>Trusted technical and market relationships leveraged for seamless deal execution.</p></li>
+          <li class="rail-step" style="--i:3"><span class="rail-node"></span><span class="rail-no">04</span><h3>Transparent Fiduciary Care</h3><p>Clear communication, honesty and full stakeholder accountability at all times.</p></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="sec" id="services">
+    <div class="wrap svc-grid">
+      <div class="svc-l rv">
+        <p class="kick">03 · Services</p>
+        <h2>A full-spectrum <em>practice.</em></h2>
+        <p class="lead">From first ground to final handover — and every tenure beyond it — a single, accountable practice covers the full spectrum of real estate counsel.</p>
+        <p style="margin-top:34px"><a class="arr-link" href="#contact">Engage the firm
+          <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></a></p>
+      </div>
+      <div class="rv" style="--dl:.12s">
+        <p class="svc-group">Development &amp; Delivery</p>
+        <div class="svc-row"><span class="svc-ix">01</span><div><h3>Real Estate Development</h3><p>Principal development and end-to-end delivery of residential and mixed-use assets, from land strategy to handover.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">02</span><div><h3>Development Advisory &amp; Management</h3><p>Owner's-representation guidance across feasibility, design, procurement and construction, protecting returns at every gate.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">03</span><div><h3>Land Acquisition Support</h3><p>Sourcing, diligence, negotiation and title perfection of prime land positions across Lagos' premium corridors.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">04</span><div><h3>Project Team Assembly</h3><p>Curating architects, engineers, contractors and consultants into a single accountable delivery team.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">05</span><div><h3>Marketing &amp; Sales Advisory</h3><p>Positioning, campaign direction and off-plan sales strategy for premium residential product.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+
+        <p class="svc-group">Transactions &amp; Advisory</p>
+        <div class="svc-row"><span class="svc-ix">06</span><div><h3>Real Estate Agency</h3><p>Discreet sales and lettings across Ikoyi, Lekki and Victoria Island, for landlords, vendors and tenants alike.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">07</span><div><h3>Investment Advisory</h3><p>Acquisition, disposal and portfolio strategy grounded in live market data and rigorous feasibility work.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">08</span><div><h3>Approvals, Title &amp; Contracts</h3><p>Development approvals, title registration and Governor's Consent, contract drafting and negotiation.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+
+        <p class="svc-group">Asset Care</p>
+        <div class="svc-row"><span class="svc-ix">09</span><div><h3>Strategic Procurement</h3><p>Sourcing of high-grade local and imported building materials, delivered seamlessly to clients' sites.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+        <div class="svc-row"><span class="svc-ix">10</span><div><h3>Asset &amp; Property Management</h3><p>Operational oversight and QA/QC discipline that protects income, condition and long-term value.</p></div><svg class="svc-arr" width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section class="sec sec--dk" id="portfolio">
+    <div class="wrap">
+      <div class="rv">
+        <p class="kick">04 · Selected Work</p>
+        <h2>A ledger of <em>delivered value.</em></h2>
+        <p class="lead">Developments and engagements delivered across Ikoyi, Lekki and Victoria Island — each entry expands to reveal the mandate we carried.</p>
+      </div>
+      <div style="margin-top:56px" class="rv" id="prjList">
+
+        <article class="prj open" data-project="riviera">
+          <button class="prj-head" aria-expanded="true"><span class="prj-no">01</span>
+            <span class="prj-title"><h3>Riviera Vista Residences</h3><p class="prj-meta">Osborne II, Ikoyi · 2020 – 2025 · 21 Apartments · 5 Villas</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/riviera-vista-ikoyi/880/560.jpg" width="880" height="560" loading="lazy" alt="Riviera Vista Residences — luxury waterfront apartments in Osborne II, Ikoyi, Lagos"></figure>
+            <div><p class="prj-desc">Ikoyi's foreshore reimagined — 21 two-, three- and four-bedroom luxury waterfront apartments crowned by a penthouse maisonette, alongside five four-bedroom semi-detached and detached villas. Rooftop lounge and gym, business lounge, high-end entrance lobby, swimming pool and children's play area.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Joint-venture partnership acquisition · Land title regularisation · Design, planning &amp; project coordination · Project team assembly · Financial modelling · Construction approvals &amp; statutory compliance · Construction · Procurement management · Value engineering · Contract &amp; tender negotiation · Marketing &amp; sales</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="mekunwen">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">02</span>
+            <span class="prj-title"><h3>Mekunwen Road Ultra-Luxury Apartments</h3><p class="prj-meta">Ikoyi · 2024 – 2025 · 8 Residences · 400 – 750 sqm</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/mekunwen-ikoyi/880/560.jpg" width="880" height="560" loading="lazy" alt="Mekunwen Road ultra-luxury apartments in Ikoyi, Lagos"></figure>
+            <div><p class="prj-desc">Eight residences of exceptional scale — three-bedroom homes of 400 sqm and four- and five-bedroom homes of 750 sqm each, with a minimum of two staff bedrooms per residence and a full suite of premium amenities.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Joint-venture partnership acquisition · Land title regularisation · Design, planning &amp; project coordination · Project team assembly · Financial modelling · Construction approvals &amp; statutory compliance · Value engineering · Contract &amp; tender negotiation · Marketing</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="beaufort">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">03</span>
+            <span class="prj-title"><h3>Beaufort Residences</h3><p class="prj-meta">Ilasan, Lekki · 2019 – 2021 · 6 Upscale Terraces</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/beaufort-lekki/880/560.jpg" width="880" height="560" loading="lazy" alt="Beaufort Residences — contemporary four-bedroom terraces in Ilasan, Lekki"></figure>
+            <div><p class="prj-desc">Six units of upscale, contemporary four-bedroom terraces with BQs — a disciplined exercise in value engineering without compromise to finish quality, delivered alongside the estate's access road.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Land acquisition &amp; title perfection · Design · Planning &amp; project coordination · Project team assembly · Value engineering · Financing · Contract &amp; tender negotiation · Construction approvals · Construction · Procurement management · Marketing, sale &amp; post-completion handover · Access road construction</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="knox">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">04</span>
+            <span class="prj-title"><h3>Knox Residences</h3><p class="prj-meta">Ilasan, Lekki · 2018 – 2019 · 4 Premium Terraces</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/knox-residences/880/560.jpg" width="880" height="560" loading="lazy" alt="Knox Residences — premium affordable three-bedroom terraces in Ilasan, Lekki"></figure>
+            <div><p class="prj-desc">Four units of premium-yet-affordable three-bedroom terraces with BQs — proof that attainable housing can still be delivered with care, from tender through to post-completion handover.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Design · Construction · Tender management · Project team assembly · Contract &amp; tender negotiation · Financing · Marketing &amp; sale · Post-completion handover · Access road financing &amp; execution</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="baines">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">05</span>
+            <span class="prj-title"><h3>Baines Credit Microfinance Bank</h3><p class="prj-meta">S.W. Ikoyi · 2021 · Office Renovation &amp; Branding</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/baines-ikoyi-office/880/560.jpg" width="880" height="560" loading="lazy" alt="Renovated and branded office space for Baines Credit Microfinance Bank in Ikoyi"></figure>
+            <div><p class="prj-desc">Renovation and brand fit-out of a new office space for a microfinance institution — delivered to brief, to budget, and to the standards of the firm's commercial practice.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Design · Tender management · Contract &amp; tender negotiation · Contractor management · Value engineering</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="primewater">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">06</span>
+            <span class="prj-title"><h3>Primewater View Gardens</h3><p class="prj-meta">Ikate, Lekki · 2025 · Private Residential</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/primewater-ikate/880/560.jpg" width="880" height="560" loading="lazy" alt="Renovated three-bedroom apartment in Primewater View Gardens, Ikate, Lekki"></figure>
+            <div><p class="prj-desc">Full renovation of a three-bedroom residential apartment for a private landlord — a quiet, meticulous engagement in one of Lekki's most established gated estates.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Renovation advisory &amp; delivery for a private landlord client</p></div></div>
+          </div></div></div>
+        </article>
+
+        <article class="prj" data-project="mojisola">
+          <button class="prj-head" aria-expanded="false"><span class="prj-no">07</span>
+            <span class="prj-title"><h3>Mojisola Onikoyi Estate</h3><p class="prj-meta">Ikoyi · 2026 · Private Residential</p></span><span class="prj-x"></span></button>
+          <div class="prj-body"><div class="prj-inner"><div class="prj-cols">
+            <figure class="duo"><img src="https://picsum.photos/seed/mojisola-onikoyi/880/560.jpg" width="880" height="560" loading="lazy" alt="Renovated four-bedroom semi-detached house in Mojisola Onikoyi Estate, Ikoyi"></figure>
+            <div><p class="prj-desc">Renovation of a four-bedroom semi-detached house for a private landlord in one of Ikoyi's most discreet addresses — currently in delivery.</p>
+            <div class="prj-roles"><strong>Mandate</strong><p>Renovation advisory &amp; delivery for a private landlord client</p></div></div>
+          </div></div></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLIENTS & NETWORK ================= -->
+  <section class="sec" id="clients">
+    <div class="wrap cli-grid">
+      <div class="cli-list rv">
+        <p class="kick">05 · Clients &amp; Engagements</p>
+        <h2>In trusted <em>company.</em></h2>
+        <div style="margin-top:44px">
+          <div class="cli-row"><span class="dia"></span><div><h3>3INVEST Limited</h3><p>Business development, sales &amp; marketing</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Lagos CoWork</h3><p>Business development, leasing &amp; operational management</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Houston EB5</h3><p>Investment marketing, brokerage &amp; investor engagement</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Estate Intel</h3><p>Real estate research &amp; data-insights publication</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Fort Knox Properties</h3><p>Development management &amp; COO office — four residential projects, sales &amp; marketing</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Baines Credit Microfinance Bank</h3><p>Office renovation, branding &amp; fit-out</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>BIDCO Limited</h3><p>Joint-venture proposal development &amp; off-plan marketing collateral</p></div></div>
+          <div class="cli-row"><span class="dia"></span><div><h3>Private Clients</h3><p>Sales, lettings, acquisitions, surveys &amp; title perfection across Ikoyi, Lekki &amp; Ikeja</p></div></div>
+        </div>
+        <p class="foot-note">*Not an exhaustive register of engagements.</p>
+      </div>
+      <div class="rv" style="--dl:.15s">
+        <p class="kick">The Network</p>
+        <h2>A quiet network <em>of excellence.</em></h2>
+        <p class="lead">Every project benefits from top-tier expertise across all aspects of delivery, drawn from an established circle of trusted professionals.</p>
+        <div class="net-list">
+          <div class="net-item"><span class="dia"></span>Construction Contracting</div>
+          <div class="net-item"><span class="dia"></span>Design Services — Architects &amp; Engineers</div>
+          <div class="net-item"><span class="dia"></span>Project Management</div>
+          <div class="net-item"><span class="dia"></span>Land Documentation &amp; Approvals</div>
+          <div class="net-item"><span class="dia"></span>Interior Design</div>
+          <div class="net-item"><span class="dia"></span>Real Estate Agency &amp; Marketing</div>
+          <div class="net-item"><span class="dia"></span>Financial &amp; Investment Advisory</div>
+          <div class="net-item"><span class="dia"></span>Procurement &amp; Logistics</div>
+          <div class="net-item"><span class="dia"></span>Legal Services &amp; Property Documents</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LEADERSHIP ================= -->
+  <section class="sec" id="leadership">
+    <div class="wrap">
+      <div class="rv">
+        <p class="kick">06 · Leadership</p>
+        <h2>Stewards of <em>the standard.</em></h2>
+      </div>
+
+      <div class="lead-feat rv">
+        <div class="lead-fig"><figure class="duo"><img src="https://picsum.photos/seed/andre-audifferen/560/700.jpg" width="560" height="700" loading="lazy" alt="Andre B. Audifferen — Managing Partner and Chief Executive Officer, Rarified One Solutions"></figure></div>
+        <div class="lead-bio">
+          <h3 class="lead-name">Andre B. Audifferen</h3>
+          <p class="lead-role">Managing Partner · Chief Executive Officer</p>
+          <p>Andre brings over ten years of experience in the Nigerian real estate industry, spanning development management, project coordination and delivery, end-to-end project strategy, value engineering, materials procurement, design conceptualisation, business development, land acquisition, statutory compliance, joint-venture acquisition, financial modelling, project funding, feasibility analysis, sales, marketing and company operations.</p>
+          <p>He served as Business Development Officer at a turnkey marketing, sales and PR firm whose portfolio included luxury developments, international real estate investments and an annual flagship real estate conference — before spending seven-plus years at Fort Knox Property Solutions Limited, first as Business Development Manager and later as Chief Operating Officer, overseeing all operational and strategic aspects of multiple developments.</p>
+          <p>His record includes high-value development delivery, raising project finance, closing joint-venture deals, large-scale sales campaigns, full-cycle project delivery, real estate research, and closing high-value sales and lettings.</p>
+          <div class="hl">
+            <span><i class="dia"></i>10+ years in Nigerian real estate</span>
+            <span><i class="dia"></i>Four flagship developments as COO</span>
+            <span><i class="dia"></i>Joint ventures, finance &amp; full-cycle delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lead-two rv">
+        <div class="lead-fig"><figure class="duo"><img src="https://picsum.photos/seed/etinosa-omodamwen/560/700.jpg" width="560" height="700" loading="lazy" alt="Etinosa Omodamwen — Partner, Real Estate Agency, Rarified One Solutions"></figure></div>
+        <div class="lead-bio">
+          <h3 class="lead-name">Etinosa Omodamwen</h3>
+          <p class="lead-role">Partner · Real Estate Agency</p>
+          <p>Etin leads the firm's agency practice, providing key support in the execution of sales and letting briefs with discretion and precision — for private clients, landlords and corporate occupiers across Ikoyi, Lekki and Victoria Island.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATEMENT ================= -->
+  <section class="sec stmt" id="why">
+    <div class="wrap rv">
+      <p class="kick">Why Rarified One</p>
+      <h2>The standard, in <em>five commitments.</em></h2>
+      <span class="stmt-dia"></span>
+      <div class="commits">
+        <span class="commit"><i class="dia"></i>Proven delivery in competitive markets</span>
+        <span class="commit"><i class="dia"></i>End-to-end advisory &amp; execution</span>
+        <span class="commit"><i class="dia"></i>A curated industry network</span>
+        <span class="commit"><i class="dia"></i>Solutions tailored to your goals</span>
+        <span class="commit"><i class="dia"></i>Strategic insight, operational excellence</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="sec" id="insights" hidden>
+    <div class="wrap">
+      <p class="kick">Insights &amp; Commentary</p>
+      <h2>Perspective for the <em>discerning.</em></h2>
+      <div class="ins-grid" id="insGrid"></div>
+      <p style="margin-top:36px"><a class="arr-link" href="/insights">All insights</a></p>
+    </div>
+  </section>
+
+  <section class="sec sec--dk" id="contact" style="padding-top:clamp(60px,8vw,110px)">
+    <div class="wrap con-grid">
+      <div class="rv">
+        <p class="kick">07 · Contact</p>
+        <h2>Begin the <em>conversation.</em></h2>
+        <p class="lead">Every engagement begins with a private, no-obligation consultation. Tell us where you are in the property lifecycle — we will tell you precisely how we can help.</p>
+        <dl class="c-rows">
+          <div class="c-row">
+            <span class="c-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg></span>
+            <div><dt>Telephone</dt><dd><a id="cPhone" href="tel:+2348143807444">+234 (0) 814 380 7444</a></dd></div>
+          </div>
+          <div class="c-row">
+            <span class="c-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></span>
+            <div><dt>Email</dt><dd><a id="cEmail" href="mailto:rarifiedonesolutions@gmail.com">rarifiedonesolutions@gmail.com</a></dd></div>
+          </div>
+          <div class="c-row">
+            <span class="c-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><dt>Office</dt><dd id="cAddr">2nd Floor, Trulease Building, 290A Ajose Adeogun Street, Victoria Island, Lagos, Nigeria</dd></div>
+          </div>
+        </dl>
+        <p class="c-hours">Office hours — Monday to Friday, 9:00 – 17:00 WAT</p>
+      </div>
+
+      <div class="rv" style="--dl:.15s">
+        <form class="frm-dark" id="reqForm" name="client-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="client-request">
+          <p class="hp" aria-hidden="true"><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="field"><label for="fName">Full Name *</label><input id="fName" name="name" type="text" autocomplete="name" placeholder="Your name" required></div>
+          <div class="field"><label for="fEmail">Email Address *</label><input id="fEmail" name="email" type="email" autocomplete="email" placeholder="name@company.com" required></div>
+          <div class="field"><label for="fPhone">Telephone</label><input id="fPhone" name="phone" type="tel" autocomplete="tel" placeholder="+234 …"></div>
+          <div class="field"><label for="fInt">Area of Interest</label>
+            <select id="fInt" name="interest">
+              <option>General Enquiry</option>
+              <option>Development &amp; Delivery</option>
+              <option>Agency — Sales &amp; Lettings</option>
+              <option>Investment Advisory</option>
+              <option>Property &amp; Asset Management</option>
+              <option>Strategic Procurement</option>
+              <option>Title &amp; Statutory Compliance</option>
+            </select>
+          </div>
+          <div class="field"><label for="fMsg">Your Message *</label><textarea id="fMsg" name="message" rows="5" placeholder="Tell us briefly about your requirement…" required></textarea></div>
+          <button class="btn" type="submit">Submit Request
+            <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg>
+          </button>
+          <p class="frm-note">Fields marked * are required. Your details remain strictly confidential and are used solely to respond to your enquiry.</p>
+        </form>
+        <div id="frmOk" hidden>
+          <svg class="ok-ic" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg>
+          <h3>Received.</h3>
+          <p>Thank you for your enquiry. A member of our team will respond within one business day.</p>
+          <a class="arr-link" href="#reqForm" id="frmAgain" style="color:var(--gold-300)">Submit another request
+            <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <a class="brand" href="#hero" aria-label="Rarified One Solutions">
+          <svg width="40" height="40" viewBox="0 0 44 44" aria-hidden="true">
+            <rect x="9" y="9" width="26" height="26" fill="none" stroke="#C6A55C" stroke-width="1" transform="rotate(45 22 22)"/>
+            <text x="22" y="29" font-family="Cormorant Garamond,Georgia,serif" font-size="19" fill="#E4CF9C" text-anchor="middle">R</text>
+          </svg>
+          <span class="brand-t"><b>RARIFIED ONE</b><span>SOLUTIONS</span></span>
+        </a>
+        <p class="ft-line">Multi-disciplinary real estate advisory and professional services — protecting capital and maximising yield across the entire property lifecycle.</p>
+      </div>
+      <div>
+        <p class="ft-h">Explore</p>
+        <ul>
+          <li><a href="#about">About the Firm</a></li>
+          <li><a href="#method">Our Approach</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="ft-h">Contact</p>
+        <address class="ft-c">
+          2nd Floor, Trulease Building,<br>290A Ajose Adeogun Street,<br>Victoria Island, Lagos, Nigeria<br>
+          <a id="fPhone" href="tel:+2348143807444">+234 (0) 814 380 7444</a><br>
+          <a id="fEmail" href="mailto:rarifiedonesolutions@gmail.com">rarifiedonesolutions@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 Rarified One Solutions — All rights reserved</span>
+      <span>Ikoyi · Lekki · Victoria Island</span>
+      <a href="#dashboard">Client Portal</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================================================================
+     THE PRIVATE DESK — client dashboard
+================================================================ -->
+<div id="dash" hidden>
+
+  <!-- login gate -->
+  <div id="dashLogin">
+    <div class="login-card" id="loginCard">
+      <svg class="mono" width="52" height="52" viewBox="0 0 44 44" aria-hidden="true">
+        <rect x="9" y="9" width="26" height="26" fill="none" stroke="#C6A55C" stroke-width="1" transform="rotate(45 22 22)"/>
+        <text x="22" y="29" font-family="Cormorant Garamond,Georgia,serif" font-size="19" fill="#E4CF9C" text-anchor="middle">R</text>
+      </svg>
+      <h2>Private Access</h2>
+      <p class="l-sub">Enter the credentials issued by your relationship manager</p>
+      <form id="loginForm">
+        <div class="field"><label for="lUser">Username</label><input id="lUser" type="text" autocomplete="username"></div>
+        <div class="field"><label for="lPass">Password</label><input id="lPass" type="password" autocomplete="current-password"></div>
+        <p class="login-err" id="loginErr" role="alert"></p>
+        <button class="btn" type="submit">Enter the Desk
+          <svg width="18" height="12" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 7h21M16 1l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- shell -->
+  <div id="dashShell" hidden>
+    <aside class="d-rail">
+      <div class="d-brand">
+        <svg width="36" height="36" viewBox="0 0 44 44" aria-hidden="true">
+          <rect x="9" y="9" width="26" height="26" fill="none" stroke="#C6A55C" stroke-width="1" transform="rotate(45 22 22)"/>
+          <text x="22" y="29" font-family="Cormorant Garamond,Georgia,serif" font-size="19" fill="#E4CF9C" text-anchor="middle">R</text>
+        </svg>
+        <div><b>THE PRIVATE DESK</b><span>Rarified One</span></div>
+      </div>
+      <nav aria-label="Dashboard">
+        <button class="d-nav on" data-view="overview" id="navOverview">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+          Overview
+        </button>
+        <button class="d-nav" data-view="requests" id="navRequests">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+          Requests <span class="d-badge" id="dBadge" hidden>0</span>
+        </button>
+        <button class="d-nav" data-view="content" id="navContent">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4z"/></svg>
+          Content
+        </button>
+        <button class="d-nav" data-view="posts" id="navPosts">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>
+          Articles
+        </button>
+      </nav>
+      <div class="d-user">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>A. Audifferen · MP</span>
+        <form id="logoutForm"><button type="submit" aria-label="Log out">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5M21 12H9"/></svg>
+        </button></form>
+      </div>
+    </aside>
+
+    <div class="d-main">
+      <div class="d-top">
+        <div><h2 id="dTitle">Overview</h2></div>
+        <div style="display:flex;gap:22px;align-items:flex-end">
+          <span class="d-date" id="dDate"></span>
+          <a class="d-site" href="#hero" data-exit>View Public Site
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- OVERVIEW -->
+      <section class="d-view" id="dViewOverview">
+        <div class="d-ledger">
+          <div class="d-led"><span class="d-led-n" id="ovTotal">0</span><span class="d-led-l">Total requests</span></div>
+          <div class="d-led"><span class="d-led-n" id="ovNew">0</span><span class="d-led-l">Awaiting reply</span></div>
+          <div class="d-led"><span class="d-led-n" id="ovProj">0</span><span class="d-led-l">Projects on site</span></div>
+          <div class="d-led"><span class="d-led-n" id="ovPub">—</span><span class="d-led-l">Last published</span></div>
+        </div>
+        <div class="d-cols">
+          <div class="d-panel">
+            <div class="d-panel-h"><h3>Latest requests</h3><button data-goto="requests">View all</button></div>
+            <div id="ovRecent"></div>
+          </div>
+          <div class="d-panel">
+            <div class="d-panel-h"><h3>Quick actions</h3></div>
+            <ul class="d-quick">
+              <li><button data-goto="content">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4z"/></svg>
+                Edit homepage &amp; contact content</button></li>
+              <li><a href="mailto:rarifiedonesolutions@gmail.com">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg>
+                Compose an email</a></li>
+              <li><a href="#hero" data-exit>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
+                View the public site</a></li>
+            </ul>
+            <p class="d-note">Enquiries submitted through the public contact form are delivered to Netlify Forms in production and mirrored here for triage. Edits published under “Content” apply instantly to the live page.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- REQUESTS -->
+      <section class="d-view" id="dViewRequests" hidden>
+        <div class="rq-filters">
+          <button class="rq-f on" data-filter="all">All</button>
+          <button class="rq-f" data-filter="new">New</button>
+          <button class="rq-f" data-filter="handled">Handled</button>
+        </div>
+        <div id="rqList"></div>
+      </section>
+
+      <!-- CONTENT -->
+      <section class="d-view" id="dViewContent" hidden>
+        <form class="d-form" id="contentForm">
+          <fieldset>
+            <legend>Announcement Bar</legend>
+            <div class="d-row d-sw">
+              <span class="sw"><input type="checkbox" id="cfBannerOn"><i></i></span>
+              <span class="sw-t">Display an announcement across the top of the site</span>
+            </div>
+            <div class="d-row"><label for="cfBannerText">Announcement text</label>
+              <input type="text" id="cfBannerText" maxlength="140" placeholder="e.g. Riviera Vista — final residences now released for sale."></div>
+          </fieldset>
+          <fieldset>
+            <legend>Homepage</legend>
+            <div class="d-row"><label for="cfHeroTitle">Hero headline — opening line</label>
+              <input type="text" id="cfHeroTitle" maxlength="90"></div>
+            <div class="d-row"><label for="cfHeroSub">Hero introduction</label>
+              <textarea id="cfHeroSub" rows="3" maxlength="420"></textarea></div>
+          </fieldset>
+          <fieldset>
+            <legend>Contact Details</legend>
+            <div class="d-row"><label for="cfPhone">Telephone</label><input type="text" id="cfPhone" maxlength="40"></div>
+            <div class="d-row"><label for="cfEmail">Email</label><input type="email" id="cfEmail" maxlength="80"></div>
+            <div class="d-row"><label for="cfAddr">Office address</label><textarea id="cfAddr" rows="2" maxlength="180"></textarea></div>
+          </fieldset>
+          <fieldset>
+            <legend>Portfolio Visibility</legend>
+            <div id="cfProjects"></div>
+          </fieldset>
+          <div class="d-save">
+            <button type="button" class="btn-plain" id="cfReset">Reset to defaults</button>
+            <button type="submit" class="btn-solid">Save &amp; Publish</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- ARTICLES -->
+      <section class="d-view" id="dViewPosts" hidden>
+        <div class="d-panel" id="postsPanel">
+          <div class="d-panel-h"><h3>Articles</h3><button type="button" id="pNew">+ New article</button></div>
+          <div id="postsList"></div>
+        </div>
+        <form class="d-form" id="postForm" hidden>
+          <fieldset>
+            <legend>Article</legend>
+            <div class="d-row"><label for="pfTitle">Title</label><input type="text" id="pfTitle" maxlength="200" required></div>
+            <div class="d-row"><label for="pfSlug">URL slug (optional — generated from the title)</label><input type="text" id="pfSlug" maxlength="90" placeholder="my-article-title"></div>
+            <div class="d-row"><label for="pfExcerpt">Summary shown on cards and in search results</label><textarea id="pfExcerpt" rows="2" maxlength="400"></textarea></div>
+            <div class="d-row"><label for="pfBody">Body</label><textarea id="pfBody" rows="14"></textarea></div>
+            <p class="pf-hint">Leave a blank line between paragraphs. Start a line with “## ” for a sub-heading.</p>
+          </fieldset>
+          <fieldset>
+            <legend>Cover image</legend>
+            <div class="d-row"><label for="pfCover">Image address (https)</label><input type="text" id="pfCover" maxlength="500" placeholder="https://…"></div>
+            <div class="d-row"><label for="pfFile">…or upload an image (JPEG, PNG or WebP)</label><input type="file" id="pfFile" accept="image/jpeg,image/png,image/webp"></div>
+          </fieldset>
+          <fieldset>
+            <legend>Publishing</legend>
+            <div class="d-row d-sw"><span class="sw"><input type="checkbox" id="pfPub"><i></i></span><span class="sw-t">Publish on the public site (untick to keep as a draft)</span></div>
+          </fieldset>
+          <div class="d-save">
+            <button type="button" class="btn-plain" id="pfCancel">Back to list</button>
+            <button type="button" class="d-btn danger" id="pfDelete" hidden>Delete</button>
+            <button type="submit" class="btn-solid">Save article</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+
+<!-- toasts -->
+<div id="toasts" aria-live="polite"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
